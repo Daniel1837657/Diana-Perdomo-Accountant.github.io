@@ -56,10 +56,10 @@ body {
 }
 
 .logo-img {
-    width: 50px; /* Ajusta el tamaño de la imagen */
+    width: 50px;
     height: 50px;
     margin-right: 10px;
-    border-radius: 50%; /* Opcional: para una imagen redonda */
+    border-radius: 50%;
 }
 
 .navbar .logo {
@@ -305,6 +305,28 @@ footer p {
     margin: 0;
     font-size: 0.9rem;
     opacity: 0.8;
+}
+
+/* Botón "Volver arriba" */
+#volver-arriba {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#volver-arriba:hover {
+    background-color: #2980b9;
 }
 
 /* Responsive Design */
