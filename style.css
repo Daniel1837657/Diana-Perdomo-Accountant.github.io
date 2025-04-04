@@ -190,20 +190,20 @@ body {
     background: #2980b9;
 }
 
-/* Sobre Nosotros */
-.sobre-nosotros {
+/* Sobre Mi */
+.SobreMí {
     background-color: #fff;
     padding: 60px 0;
     text-align: center;
 }
 
-.sobre-nosotros h2 {
+.SobreMí h2 {
     font-size: 2rem;
     color: #2c3e50;
     margin-bottom: 20px;
 }
 
-.sobre-nosotros p {
+.SobreMí p {
     font-size: 1rem;
     color: #666;
     max-width: 800px;
